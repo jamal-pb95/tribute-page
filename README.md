@@ -1,5 +1,9 @@
-# tribute-page
-freeCodeCamp beta responsive design first project: Tribute-Page.
+# Project:
+Name: Build A Tribute Page<br/>
+Author: [Jamal Uddin]()<br/>
+Date: May, 2018<br/>
+<br/>
+this is a [freeCodeCamp]() responsive design first project: Build A Tribute Page.
 
 # Live version of this project:
-Please click [this](https://codepen.io/jamal-pb95/full/jmvvpz/) link or follow the link below: https://codepen.io/jamal-pb95/full/jmvvpz/
+Please [click here for live view](https://codepen.io/jamal-pb95/full/jmvvpz/)

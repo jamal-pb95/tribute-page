@@ -1,12 +1,16 @@
-
 body {
-  text-align: justify;
   background-color: #23C9FF;
   font-family: 'Merriweather', serif;
   line-height: 1.5em;
 }
 
-.main {
+.header,
+#img-div,
+.footer {
+  text-align: center;
+}
+
+main {
   background-color: #FFF;
   margin: 0 auto;
   margin-top: -10px;
@@ -19,12 +23,18 @@ body {
 .header {
   margin-top: 20px;
   padding-top: 25px;
-  text-align: center;
+}
+
+img {
+  max-width: 100%; 
+  display: block; 
+  height: auto;
+  margin: auto;
 }
 
 #img-div {
   margin: 0 auto;
-  text-align: center;
+  max-width: none;
 }
 
 span {
@@ -34,10 +44,6 @@ span {
 .content, .works {
   margin: 20px;
   padding: 20px;
-}
-
-#tribute {
-  text-align: center;
 }
 
 #tribute a {
@@ -58,7 +64,6 @@ span {
   padding: .6em;
   max-width: 910px;
   background-color: #83C9FF;
-  text-align: center;
   border-radius: 3px;
 }
 
@@ -67,5 +72,6 @@ span {
 }
 
 .footer a:hover {
-  color: #FFF;
+  color: #0af;
+  translate: 0.5s;
 }
