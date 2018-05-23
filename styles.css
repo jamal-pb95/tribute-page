@@ -4,13 +4,13 @@ body {
   line-height: 1.5em;
 }
 
-.header,
-#img-div,
+#header,
+#img-caption,
 .footer {
   text-align: center;
 }
 
-main {
+#main {
   background-color: #FFF;
   margin: 0 auto;
   margin-top: -10px;
@@ -20,30 +20,19 @@ main {
   border-radius: 3px;
 }
 
-.header {
+#header {
   margin-top: 20px;
   padding-top: 25px;
 }
 
 img {
   max-width: 100%; 
-  display: block; 
-  height: auto;
-  margin: auto;
-}
-
-#img-div {
+  display: block;
   margin: 0 auto;
-  max-width: none;
 }
 
 span {
   font-weight: bold;
-}
-
-.content, .works {
-  margin: 20px;
-  padding: 20px;
 }
 
 #tribute a {
@@ -73,5 +62,19 @@ span {
 
 .footer a:hover {
   color: #0af;
-  translate: 0.5s;
+  transition: color 0.5s;
+}
+
+@media screen and (max-width: 380px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  
+  h3 {
+    font-size: 1em;
+  }
+  
+  #main {
+    max-width: 100%;
+  }
 }
