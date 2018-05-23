@@ -35,6 +35,10 @@ span {
   font-weight: bold;
 }
 
+.works {
+  margin-top: 3em;
+}
+
 #tribute a {
   text-decoration: none;
 }
