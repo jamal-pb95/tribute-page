@@ -31,6 +31,11 @@ img {
   margin: 0 auto;
 }
 
+#img-caption {
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
 span {
   font-weight: bold;
 }
