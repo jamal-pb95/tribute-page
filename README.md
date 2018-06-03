@@ -1,5 +1,6 @@
-# Project:
-Name: Build A Tribute Page: Tribute to Kazi Nazrul Islam<br>
+# Project: Build A Tribute Page
+
+Name: Tribute to Kazi Nazrul Islam<br>
 Author: [Jamal Uddin](https://jamal-pb95.github.io/)<br>
 Date: May, 2018
 
